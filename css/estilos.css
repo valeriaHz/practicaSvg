@@ -1,0 +1,17 @@
+.circulo{
+    /* e da un tamaño al circulo con respacto a la pantalla */
+    width:100% ;
+    margin: auto;
+}
+.circulo path{
+    /* le asigna un color a la linea del circulo */
+    stroke:rgb(32, 26, 202);
+    stroke-width: 3px;
+}
+
+/* permite que el circulo cambie de color al pasar el cursor sobre el  */
+.circulo :hover{
+    fill:rgb(202, 26, 26);
+    cursor: pointer;
+    stroke:rgb(202, 26, 26);
+}
